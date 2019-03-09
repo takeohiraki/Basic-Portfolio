@@ -1,42 +1,51 @@
 
-/*
+
 *{
-    margin: 20px;
-    padding: 20px;
-    
+    font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;    
 }
-*/
+
 
 body {
     background-color:#efeee7;
     font:Georgia,"Times New Roman",Times,serif;
     color:#333333;
-    margin: 0;
-    padding: 0;
-    width: 960px;
-  }
+    margin: auto;
+}
 
 header {
-    background-color:white;
-    width: 960px;
-    height: 70px;
+    background-color:#ffffff;
+    height: 60px;
+    border-color: #cccccc;
+    font: 'Georgia', Times, "Times New Roman", serif;
+}
+
+#bio_head {
+    max-width: 960px;
+    margin: auto;
+    height: 60px;
 }
 
 h1 {
     color:#eee;
-    font-size: 28px;
-    display: inline-block;
-    background-color:#333333;
-    height: 63px;
-    width: 180px;
+    font-size: 24px;
+    width: 170px;
     text-align: center;
-    margin-top: 0px;
+    float: left; 
 }
 
+#name {
+    background-color:#4AAAA5;
+    height: 60px;
+    vertical-align: center;
+    width: 175px;
+    display: inline-block;
+}
 
 #nav_bar {
     display: inline-block;
-    margin-left: 500px;
+    float: right;
+    vertical-align: center;
+    margin-top: 5px;
   }
 
 #nav_bar li {
@@ -45,29 +54,81 @@ h1 {
     margin-right: 5px;
 }  
 
+
+#bio_details {
+    max-width: 960px;
+    margin: auto;
+    background: white;
+    height: 450px;
+    margin-top: 30px;
+    border-color: #dddddd;
+}
+
+
 h2 {
     font-size: 24px;
+    color: #4AAAA5;
 }
 
 
 #main-bio {
-    float: left;
-    width: 63%;
     width: 960px;
+    padding: 20px;
 }
 
 #bio-image {
     float: left;
-    width: 200px;
     margin-right: 20px;
+    margin-top: 10px;
+    max-width: 50%;
+    height: auto;
+    border: solid 1px red; 
+}
+
+#float_text {
+    border: solid 1px red; 
 }
 
 a {
     color:black;
 }
 
-#content {
-    width: 1024px;
+hr {
+    margin-right: 60px;
+    max-width: 900px;
     
 }
 
+p {
+    max-width: 900px;
+    color: #777777;
+}
+
+
+footer {
+    background-color:#C4C4C4;
+    font:Georgia,"Times New Roman",Times,serif;
+    /* margin: auto; */
+    text-align: center;
+    border-top: solid 10px #4AAAA5;
+    border: solid 1px red; 
+    margin-top: 30px;
+}
+
+
+.small_input {
+    width:900px;
+}
+
+.large_input {
+    width:900px;
+    height: 150px;
+}
+
+.submit_button {
+    background-color: #4AAAA5;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    /* padding-left: 5px;
+    padding-right: 5px; */
+ }
