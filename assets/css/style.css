@@ -5,7 +5,6 @@
 
 }
 
-
 body {
     background-color:#efeee7;
     font:Georgia,"Times New Roman",Times,serif;
@@ -55,7 +54,6 @@ h1 {
     margin-right: 5px;
 }  
 
-
 #bio_details {
     max-width: 960px;
     margin: auto;
@@ -66,12 +64,10 @@ h1 {
     border: solid 1px green; 
 }
 
-
 h2 {
     font-size: 24px;
     color: #4AAAA5;
 }
-
 
 #main-bio {
     width: 900px;
@@ -114,15 +110,13 @@ h2 {
 hr {
     /* margin-right: 60px; */
     max-width: 960px;
-    margin-bottom: 15px;
-    
+    margin-bottom: 15px;   
 }
 
 p {
     max-width: 900px;
     color: #777777;
 }
-
 
 footer {
     background-color:#666;
@@ -134,14 +128,15 @@ footer {
     color: white
 }
 
-
 .small_input {
     width:900px;
+    border: 1px solid #dddddd;
 }
 
 .large_input {
-    width:900px;
-    height: 150px;
+    border: 1px solid #dddddd;
+    /* width:900px; */
+    /* height: 150px; */
 }
 
 .submit_button {
@@ -163,12 +158,12 @@ footer {
     /* border: solid 1px red;  */
 }
 
- img.portfolio_image {
+img.portfolio_image {
     width:200px;
     /* border: solid 1px red;  */
  }
 
- #box {
+#box {
     position: absolute;
     bottom: 0px;
     background: #4AAAA5;
