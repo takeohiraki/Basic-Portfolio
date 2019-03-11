@@ -1,9 +1,11 @@
 # Basic-Portfolio
 
-[Lynne] more changes
-[Takeo] changes again
-[Lynne] redo
-[Rachel] confirmed.
-[test]
-[Takeo] Latest change
-[Takeo] One more
+<p>Three main files</p>
+<br>
+<ul>
+    <li>index.html</li>
+    <li>contact.html</li>
+    <li>portfolio.html</li>
+</ul>
+<br>
+<p>These files link to assets, which contains images</p>
