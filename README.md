@@ -2,6 +2,6 @@
 
 [Lynne] more changes
 [Takeo] changes again
-[Lynne] more..changes
+[Lynne] redo
 [Rachel] confirmed.
 [Takeo] Latest change
